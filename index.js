@@ -98,7 +98,7 @@ function playGame(){
 if(interested === 'no'){
   console.log("There's always a next time. See you soon!");
 }else{
-  console.log('Cool! Welcome, then to the game. The game has three levels: \n Level 1 : Basic (3 questions) \n Level 2 : Intermediate (3 questions) \n Level 3: Advanced (3 questions \n You proceed to the next level only if you answer all previous level questions correctly. \n And yes the difficulty increases at each level. All the best :)');
+  console.log('Cool! Welcome, then to the game. The game has three levels: \n Level 1 : Basic (3 questions) \n Level 2 : Intermediate (3 questions) \n Level 3: Advanced (3 questions) \n You proceed to the next level only if you answer all previous level questions correctly. \n And yes the difficulty increases at each level. All the best :)');
   let startGame = readline.question('Press enter to begin :');
   playGame();
 }
